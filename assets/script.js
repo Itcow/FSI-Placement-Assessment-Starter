@@ -86,5 +86,5 @@ sugarPlusBtn.addEventListener('click', function() {
     
     // TODO: Hook up event listeners for the rest of the buttons
     function total(gb,cc,sugar){
-        document.getElementById('qty-total').textContent = gb+cc+sugar;
+        document.querySelector("#qty-total").textContent = gb+cc+sugar;
     }
