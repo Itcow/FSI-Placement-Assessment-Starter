@@ -43,9 +43,10 @@ console.log('Gingerbread + button was clicked!')
 
 gbMinusBtn.addEventListener('click', function() {
     console.log('Gingerbread - button was clicked!')
-        gb--
-        gbTotal.textContent = gb
-        total(gb,cc,sugar)
+      if(gb > 0) {gb--
+        gbTotal.textContent = gb}
+        else {gbTotal.textcontent =0}
+      total(gb,cc,sugar)
     })
 
 //Chocolate Chip Cookies
@@ -59,8 +60,9 @@ ccPlusBtn.addEventListener('click', function() {
 
  ccMinusBtn.addEventListener('click', function() {
         console.log('Chocolate Chip - button was clicked!')
-            cc--
-            ccTotal.textContent = cc
+           if(cc > 0) {cc--
+            ccTotal.textContent = cc}
+            else {ccTotal.textContent = 0}
             total(gb,cc,sugar)
     
         })
@@ -76,8 +78,9 @@ sugarPlusBtn.addEventListener('click', function() {
 
     sugarMinusBtn.addEventListener('click', function() {
         console.log('sugar - button was clicked!')
-            sugar--
-            sugarTotal.textContent = sugar
+            if(sugar > 0) {sugar--
+            sugarTotal.textContent = sugar}
+            else {sugarTotal.textContent = 0}
             total(gb,cc,sugar)
             
         })
