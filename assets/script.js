@@ -9,7 +9,7 @@ let cc = 0 // Chocolate Chip
 let sugar = 0 // Sugar Sprinkle
 
 
-let totalQuantity = document.querySelector("#gty-total")
+
 
 let gbTotal= document.querySelector("#qty-gb")
 
